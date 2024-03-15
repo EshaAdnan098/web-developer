@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and input></title>
+</head>
+<body>
+   <h1>Form to apply for Web Development course</h1> 
+   <form action="post">
+   <label for="username">Enter your name:</label>
+   <input type="text" id="username" placeholder="enter your username">
+   <br>
+   <label for="date">Enter date:</label>
+   <input type="date" name="date" id="date"><br>
+   <label for="">Enter password:</label>
+   <input type="password" id="password" ><br>
+   <label for="gender">Gender:</label>
+   <input type="radio" name="gender" id="male" value="male">
+   <label for="male">Male</label>
+   <input type="radio" name="gender" id="female" value="female">
+   <label for="female">Female</label><br>
+   <input type="checkbox" name="checkbox" id="checkbox">
+   <label for="checkbox">Subscribe</label><br>
+   <label for="comment">Enter your comment:</label><br>
+   <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br>
+   <label for="fruits">Select fruit:</label>
+   <select name="fruits" id="fruits">
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    <option value="cherry">Cherry</option>
+</select><br>
+<label for="employees">Select employee:</label>
+<select name="persons" id="employees">
+    <option value="Alice">Alice</option>
+    <option value="Simon">Simon</option>
+    <option value="Alvin">Alvin</option>
+</select>
+</form>
+<form action="/submit">
+    <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea><br>
+    <select name="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+    </select>
+    <input type="submit" value="Submit">
+</form>
+<form action="post">
+<textarea name="comment" cols="50" rows="10">Enter comment.....</textarea><br>
+<select name="employee" id="emp">
+    <option value="Alice">Alice</option>
+    <option value="Simon">Simon</option>
+    <option value="Alvin">Alvin</option>
+</select>
+<input type="submit" >
+</form>
+</body>
+</html>
