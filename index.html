@@ -1,37 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>headings and paragraphs</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        :root {
+            --color: rgb(148, 148, 243);
+            --red: rgb(67, 72, 239);
+            --seccolor: white;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .pear {
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            color: var(--seccolor);
+            background-color: var(--red);
+            padding: 20px;
+            /* position: fixed; */
+            /* display: sticky; */
+        }
+
+        ul li {
+            display: inline;
+            /* position: sticky; */
+            padding: 20px;
+            color: var(--seccolor);
+            font-size: 20px;
+        }
+
+        .boxes {
+            padding: 20px;
+            background-color: var(--seccolor);
+            height: auto;
+        }
+
+        .text {
+            border: 2px solid rgba(47, 38, 38, 0.372);
+            display: inline-block;
+            text-align: center;
+            height: 80vh;
+            width: 44vw;
+            padding: 10px;
+            margin: 10px;
+            background-color: var(--color);
+            color: rgb(53, 51, 51);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        .apple {
+            background-color: rgb(168, 163, 163);
+            border: 3px solid black;
+            border-radius: 50px;
+            padding-top: 30px;
+            text-align: center;
+            margin: 20px;
+            height: 20vh;
+            text-decoration: none;
+            font-size: 20px;
+            /* colo ; */
+        }
+
+        img {
+            position: fixed;
+            border-radius: 50px;
+            top: 560px;
+            right: 10px;
+            width: 70px;
+        }
+
+        .manu {
+            background-color: gray;
+            height: 10vh;
+            width: 98vw;
+            text-align: center;
+            padding-top: 30px;
+            border-radius: 20px;
+        }
+    </style>
 </head>
+
 <body>
-<h1>My Bookmarks</h1>
-<h2>My Bookmarks</h2>
-<h3>My Bookmarks</h3>
-<h4>My Bookmarks</h4>
-<h5>My Bookmarks</h5>
-<h6>My Bookmarks</h6>
-<p style="background-color: rgb(176, 136, 214);">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus corporis perspiciatis, vel quas, obcaecati ipsam esse sunt culpa exercitationem ratione aliquid sapiente beatae laboriosam qui ipsa quasi?</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore natus corporis animi, autem eius ad, alias consectetur adipisci sapiente sequi asperiores modi. Libero et earum, non eius placeat accusantium assumenda totam blanditiis molestiae modi obcaecati culpa sit, veritatis ducimus nulla architecto at est repellat aperiam qui cumque fugiat? Rerum voluptatem accusantium laborum, deserunt nesciunt magnam! Facilis enim ab magni optio dicta asperiores officiis assumenda nostrum, vel neque excepturi cumque amet odio inventore quidem aspernatur? Tenetur, modi magnam. Deserunt a sequi, tempore aliquam accusamus aliquid ullam. Alias esse quam possimus consectetur tenetur? Enim beatae exercitationem dolor, natus omnis ad architecto libero?</p>
-<p>The price is 10 &lt; 20.</p>
-<blockquote cite="source-url">
-    Quotation text here.
-  </blockquote>
-  <q cite="source-url">Quotation text here.</q>
-  <blockquote>
-    eshaaaaa
-  </blockquote>
-  <q>
-    hdeuhu
-  </q>
-  <blockquote cite="https://example.com">
-    This is a long quote from an external source. This quote can span multiple lines and paragraphs.
-  </blockquote>
-  <meta charset="UTF-8">
-  <pre><code>
-    jgfjyugf
-  </code></pre>
+    <div class="pear">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Menu</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="boxes">
+        <div class="text box1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ullam eos repellendus
+            minus nesciunt quam facere quaerat ab maxime officiis fugiat libero nemo aperiam error aliquid fugit
+            perferendis amet, commodi doloremque quo. Aut iusto, aspernatur provident libero magni autem fugiat ipsam
+            dolorem, exercitationem, id ab eveniet cumque perferendis unde? Doloremque?Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Pariatur delectus quo tempore excepturi labore praesentium nostrum assumenda
+            quisquam voluptates! Maiores recusandae modi temporibus! Totam, ratione, at quam quis voluptatem possimus
+            esse nobis quas cum consequatur dolor ab? Sit ex dicta ab architecto quia quaerat mollitia debitis quo, quos
+            minus numquam, obcaecati id deserunt distinctio saepe at dolorem iusto vero aliquam atque sed, delectus
+            natus? Ipsa corrupti sit tenetur incidunt neque dicta in quod dolorum ab, exercitationem facere doloribus
+            tempora magnam! Quae corrupti a, consectetur autem consequatur soluta delectus provident fuga blanditiis,
+            recusandae pariatur tempore, vel non vero minus dignissimos aliquam!</div>
+        <div class=" text box2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse non nam eum recusandae
+            rerum ab autem assumenda vel sapiente error illo, architecto optio doloribus vitae sequi porro suscipit
+            tempore odio officia sunt, qui quis animi odit perspiciatis! Nam ex aliquid voluptatum quam ea rem. Rerum
+            repellendus est ipsa dolor quaerat culpa natus? Distinctio voluptatibus necessitatibus sunt officiis
+            suscipit repellendus? Architecto, in quam ipsa id explicabo qui vel ut perspiciatis mollitia saepe, laborum
+            inventore aliquid dicta quaerat ex necessitatibus eveniet numquam veniam et, perferendis eum! Fugit quae,
+            aperiam animi consectetur nulla sed! Quam nam vitae expedita aliquam animi unde sed eos reiciendis, nesciunt
+            excepturi! Nisi ipsa ipsum autem! Eveniet, cum. Commodi incidunt minima eligendi neque labore distinctio
+            esse deserunt quibusdam nobis voluptatem perferendis suscipit dicta necessitatibus sit veniam voluptas id
+            ea, consequatur dolorum. Velit, quisquam placeat eveniet architecto alias dignissimos, ab cum obcaecati
+            delectus quos sint. Libero quae distinctio aut quasi.</div>
+        <img src="download.png" alt="">
+    </div>
+    <div class="apple">
+        <h1>Welcome to Sigma Web Development Express</h1>
+    </div>
+    <footer>
+        <div class="manu">
+            <h3>&copy;Copyright</h3>
+        </div>
+    </footer>
 </body>
+
 </html>
